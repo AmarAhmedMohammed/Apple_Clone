@@ -1,433 +1,113 @@
-*{
+* {
     margin: 0;
-    font-family: sans-serif;
-    list-style: none;
-    max-width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
 }
-img{
+
+img {
     max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-li a{
-    color: black;
+a {
     text-decoration: none;
-    list-style: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.nav-links li a {
     opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
 
-a:hover{
-   text-decoration: underline;
-}
-
-
-li a:hover{
+.nav-links li a:hover {
     opacity: 1;
-    text-decoration: underline;
 }
 
-.header{
-    display: flex;
-    width: 100%;
-    list-style: none;
-    justify-content: space-evenly;
-    background-color: gray;
-    padding: 5px 0px 2px 0px;
-    margin: 0 auto;
-    position: sticky;
-    top: 0px;
-    font-weight: 600;
-    font-size: 94%;
+.mobile-menu li a {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
 
-.logo img{
-    width: 36px;
- 
+.mobile-menu li a:hover {
+    opacity: 1;
 }
 
-.logo{
-    list-style: none;
+/* Button Styles */
+.learn-more {
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.search img{
-    width: 20px;
+.header_content {
+    justify-content: space-evenly !important;
 }
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
 
-.cart{
-    width: 20px;
-    padding-right: 10px;
-}
-
-.shop a{
-    
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid blue;
-    border-radius: 50px;
-    padding: 5px 15px;
-}
-
-.shop a:hover{
-    text-decoration: underline;
-}
-
-
-.shop{
-    padding-left: 650px;
-
-}
-
-
-.text1{
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-
-.learn a{
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid blue;
-    border-radius: 50px;
-
-    padding: 4px 20px;
-    background-color: blue;
-    font-size: 12px;
-    color: white;
-
-
-}
-
-.learn{
-   padding-right: 5px;
-   margin-right: 5px;
-}
-
-.ilink:hover{
-   text-decoration: underline;
-}
-
-.learn :hover{
-    text-decoration: underline;
-}
-.back{
-    background-color: black;
-}
-
-.text2{
-    text-align: center;
-    color: white;
-}
-
-.iphonelink{
-    display: flex;
-    justify-content: center;
-}
-
-
-.ilink a{
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid blue;
-    border-radius: 50px;
-
-    padding: 4px 20px;
-    font-size: 12px;
-    color: blue;
-}
-
-.ilink{
-    padding-left: 10px;
-    text-decoration: none;
-}
-
-.ilink a :hover{
-    text-decoration: underline;
-}
-
-.buy a :hover{
-    text-decoration: underline
-}
-.back2{
-    background-color: black;
-    margin-top: 5px;
-}
-
-.lbuy{
-    display: flex;
-   
-}
-
-.buy a{
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid blue;
-    border-radius: 50px; 
-    padding: 5px 15px;
-    font-size: 12px;
-}
-
-.buy a:hover{
-text-decoration: underline;
-}
-
-.text4{
-    padding-left : 275px; 
-    width: 50%;
-    padding-top: 19px;
-
-    
-}
-
-
-
-
-.lap{
-    width: auto;
-    margin-right: 10px;
-    
-    
-}
-
-.lap img{
-    width: 100%;
-}
-
-.pc{
-    margin-right: 5px;
-    margin-bottom: 10px;
-}
-
-
-.text5{
-   padding-left: 40px;
-   background-color: black;
-   padding: 15px 0px 0px 0px;
-   margin: 5px 0px 8px 0px;
-}
-    
-
-
-.zigzag{
-    width: auto;
-}
-
-.zigzag img{
-    width: 100%;
-}
-
-.large{
-    display: flex;
-    justify-content: space-between;
-}
-
-.utext5{
-    padding-left: 10px;
-}
-
-.iPad-Pro{
-    text-align: center;
-    color: white;
-}
-
-.Unbelievably{
-text-align: center;
-    color: white;
-}
-
-.dclass{
-    padding-left: 257px;
-    display: flex;
-
-}
-
-.text6{
-width: 50%;
-background-color: #f9f9f9;
-
-}
-
-.Intelligence{
-    text-align: center;
-
-}
-
-.for-the-rest{
-    text-align: center;
-
-}
-
-.Coming-in-beta,.Smarter{
-    text-align: center;
-
-}
-
-.Smarter{
-    color: white;
-}
-.text6 img{
-padding-left: 10px;
-    width: 100%;
-}
-
-.watch-series5-logo{
-width: 30%;
-padding: 0px 0px 0px 282px;
-}
-
-.watch-series5-logo img{
-width: 50%;
-
-}
-
-.text7{
-    width: 50%;
-    background-color: black;
-}
-
-
-.watch-im{
-    width: 100%;
-  
-margin-bottom: 10px;
-}
-
-.watch-im img{
-    width: 100%;
-}
-
-.large2{
-display: flex;
-justify-content: space-between;
-}
+    .mobile-menu {
+        display: none;
+    }
 
-.text8{
-   width: 50%;
-   background-color: #f9f9f9;
-   margin-right: 11px;
-   padding-top: 15px;
-}
-
-.apple-card-logo,.to-3-Daily,.every-purchase{
-    text-align: center;
-}
-
-.apple-card-logo img{
-width: 90px;
-}
-
-.applecard{
-width: 99%;
-margin-right: 5px;
-}
-
-.text9{
-width: 50%;
-background-color: #f9f9f9;
-padding-top: 15px;
-
-}
-
-.in-credit-when-you,.new-ipad-logo,.trade-in-iPhone,.getyourestimate{
-  text-align: center;
-}
-
-.getyourestimate a{
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid blue;
-    border-radius: 50px; 
-    padding: 5px 15px;
-    font-size: 12px;
-    color: white;
-    background-color: blue;
-}
-
-.getyourestimate a:hover{
-      text-decoration: underline;
-}
-
-.new-ipad-logo img{
-width: 125px;
-padding-bottom: 16px;
-}
-.iphone2{
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-.large3{
-display: flex;
-margin-top: 10px;
-}
-
-.amardevelop{
-     display: flex;
-     background-image: url("../image/HD\ Cell\ Wallpaper_webcam.jpg");
-     border-radius: 10px;
-     /* background-repeat: no-repeat;
-     background-size: cover; */
-}
-
-.amar,.develop{
-width: 50%;
-}
-
+    .mobile-menu.active {
+        display: block;
+    }
 
-.amar img{
-width: 50%;
-}
-
-.develop img{
-width: 100%;
-padding-right: 20px;
-}
+    .large, .large2, .large3 {
+        grid-template-columns: 1fr;
+    }
 
-.develop{
-    padding: 200px 331px 0px 0px ;
-}
+    .amardevelop {
+        flex-direction: column;
+        text-align: center;
+    }
 
-.vrline{
-    width: 5px;
-    height: 50px;
-    color: aqua;
-    transform: rotate(30deg);
-    padding: 0px 0px 0px 0px;
-}
+    .amardevelop img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
 
-.longtext{
-    background-color:#c5c5c5;;
-    padding: 30px 50px;
-margin-top: 10px;
-}
+    .longtext p {
+        font-size: 0.9rem;
+    }
 
-.longtextdecor{
-    font-weight: 200;
-    font-size: 10px;
+    .last-link {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-.last-link{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 200;
-    font-size: 11px;
-    list-style: none;
-}
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.8rem;
+    }
 
-ul li a{
-    text-decoration: none;
-    color: black;
-    list-style: none;
-}
+    h5 {
+        font-size: 1rem;
+    }
 
-.ul li{
-    list-style: none;
-}
+    .learn-more {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
 
-.footer-text{
-    display: flex;
-    justify-content: space-between;
+    .last-link {
+        grid-template-columns: 1fr;
+    }
 }
