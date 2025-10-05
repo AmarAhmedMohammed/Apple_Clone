@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    opacity: 0.8;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+
+li a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: gray;
+    padding: 5px 0px 2px 0px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+    font-weight: 600;
+    font-size: 94%;
+}
+
+.logo img{
+    width: 36px;
+ 
+}
+
+.logo{
+    list-style: none;
+}
+
+.search img{
+    width: 20px;
+}
+
+.cart{
+    width: 20px;
+    padding-right: 10px;
+}
+
+.shop a{
+    
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.shop a:hover{
+    text-decoration: underline;
+}
+
+
+.shop{
+    padding-left: 650px;
+
+}
+
+
+.text1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.learn a{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 50px;
+
+    padding: 4px 20px;
+    background-color: blue;
+    font-size: 12px;
+    color: white;
+
+
+}
+
+.learn{
+   padding-right: 5px;
+   margin-right: 5px;
+}
+
+.ilink:hover{
+   text-decoration: underline;
+}
+
+.learn :hover{
+    text-decoration: underline;
+}
+.back{
+    background-color: black;
+}
+
+.text2{
+    text-align: center;
+    color: white;
+}
+
+.iphonelink{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ilink a{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 50px;
+
+    padding: 4px 20px;
+    font-size: 12px;
+    color: blue;
+}
+
+.ilink{
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.ilink a :hover{
+    text-decoration: underline;
+}
+
+.buy a :hover{
+    text-decoration: underline
+}
+.back2{
+    background-color: black;
+    margin-top: 5px;
+}
+
+.lbuy{
+    display: flex;
+   
+}
+
+.buy a{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 50px; 
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.buy a:hover{
+text-decoration: underline;
+}
+
+.text4{
+    padding-left : 275px; 
+    width: 50%;
+    padding-top: 19px;
+
+    
+}
+
+
+
+
+.lap{
+    width: auto;
+    margin-right: 10px;
+    
+    
+}
+
+.lap img{
+    width: 100%;
+}
+
+.pc{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+
+.text5{
+   padding-left: 40px;
+   background-color: black;
+   padding: 15px 0px 0px 0px;
+   margin: 5px 0px 8px 0px;
+}
+    
+
+
+.zigzag{
+    width: auto;
+}
+
+.zigzag img{
+    width: 100%;
+}
+
+.large{
+    display: flex;
+    justify-content: space-between;
+}
+
+.utext5{
+    padding-left: 10px;
+}
+
+.iPad-Pro{
+    text-align: center;
+    color: white;
+}
+
+.Unbelievably{
+text-align: center;
+    color: white;
+}
+
+.dclass{
+    padding-left: 257px;
+    display: flex;
+
+}
+
+.text6{
+width: 50%;
+background-color: #f9f9f9;
+
+}
+
+.Intelligence{
+    text-align: center;
+
+}
+
+.for-the-rest{
+    text-align: center;
+
+}
+
+.Coming-in-beta,.Smarter{
+    text-align: center;
+
+}
+
+.Smarter{
+    color: white;
+}
+.text6 img{
+padding-left: 10px;
+    width: 100%;
+}
+
+.watch-series5-logo{
+width: 30%;
+padding: 0px 0px 0px 282px;
+}
+
+.watch-series5-logo img{
+width: 50%;
+
+}
+
+.text7{
+    width: 50%;
+    background-color: black;
+}
+
+
+.watch-im{
+    width: 100%;
+  
+margin-bottom: 10px;
+}
+
+.watch-im img{
+    width: 100%;
+}
+
+.large2{
+display: flex;
+justify-content: space-between;
+}
+
+.text8{
+   width: 50%;
+   background-color: #f9f9f9;
+   margin-right: 11px;
+   padding-top: 15px;
+}
+
+.apple-card-logo,.to-3-Daily,.every-purchase{
+    text-align: center;
+}
+
+.apple-card-logo img{
+width: 90px;
+}
+
+.applecard{
+width: 99%;
+margin-right: 5px;
+}
+
+.text9{
+width: 50%;
+background-color: #f9f9f9;
+padding-top: 15px;
+
+}
+
+.in-credit-when-you,.new-ipad-logo,.trade-in-iPhone,.getyourestimate{
+  text-align: center;
+}
+
+.getyourestimate a{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 50px; 
+    padding: 5px 15px;
+    font-size: 12px;
+    color: white;
+    background-color: blue;
+}
+
+.getyourestimate a:hover{
+      text-decoration: underline;
+}
+
+.new-ipad-logo img{
+width: 125px;
+padding-bottom: 16px;
+}
+.iphone2{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.large3{
+display: flex;
+margin-top: 10px;
+}
+
+.amardevelop{
+     display: flex;
+     background-image: url("../image/HD\ Cell\ Wallpaper_webcam.jpg");
+     border-radius: 10px;
+     /* background-repeat: no-repeat;
+     background-size: cover; */
+}
+
+.amar,.develop{
+width: 50%;
+}
+
+
+.amar img{
+width: 50%;
+}
+
+.develop img{
+width: 100%;
+padding-right: 20px;
+}
+
+.develop{
+    padding: 200px 331px 0px 0px ;
+}
+
+.vrline{
+    width: 5px;
+    height: 50px;
+    color: aqua;
+    transform: rotate(30deg);
+    padding: 0px 0px 0px 0px;
+}
+
+.longtext{
+    background-color:#c5c5c5;;
+    padding: 30px 50px;
+margin-top: 10px;
+}
+
+.longtextdecor{
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.last-link{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    font-size: 11px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.ul li{
+    list-style: none;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+}
